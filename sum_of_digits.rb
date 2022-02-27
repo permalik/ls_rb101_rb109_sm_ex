@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 def sum_of_digits(integer)
+  # number.to_s.chars.map(&:to_i).reduce(:+)
+
   integer_array = integer.to_s.chars.map(&:to_i)
   sum = 0
 
