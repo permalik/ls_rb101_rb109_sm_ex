@@ -5,7 +5,7 @@ def greeting_a_user
   name = gets.chomp
 
   if name.include?('!')
-    puts "hello #{name}. why are we screaming?".upcase
+    puts "hello #{name.chop}. why are we screaming?".upcase
   else
     puts "Hello #{name}."
   end
